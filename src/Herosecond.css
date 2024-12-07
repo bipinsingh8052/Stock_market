@@ -29,6 +29,71 @@
     color: rgb(18, 13, 13);
     
 }
+.second .second_first .option button{
+    /* border: 1px solid rgb(14, 65, 136); */
+    /* border-radius: 50%; */
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: whitesmoke;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    /* background-color: rgba(140, 112, 166, 0.379); */
+    /* box-sizing: -1px -1px 8px 10px rgb(87, 87, 219); */
+}
+
+
+.second .second_s{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 15px solid rgba(146, 166, 198, 0.199);
+    border-right: 15px solid rgba(146, 166, 198, 0.199);
+    border-bottom: 15px solid rgba(146, 166, 198, 0.199);
+    /* border: 12px solid black; */
+}
+.second .second_s img{
+    height: 80%;
+    width: 80%;
+}
+
+
+
+
+.second{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    
+}
+.second .second_first{
+    height: 100%;
+    width: 50%;
+    padding-left: 10px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.second .second_first  i{
+    font-size: 29px;
+    color: blueviolet;
+    padding: 20px;
+
+}
+.second .second_first p{
+    font-size: 18px;
+    color: rgb(106, 98, 98);
+}
+.second .second_first .option p{
+    font-size: 20px;
+    color: rgb(18, 13, 13);
+    
+}
 .second .second_first .option p i{
     /* border: 1px solid rgb(14, 65, 136); */
     border-radius: 50%;
@@ -39,18 +104,18 @@
 }
 
 
-.second .second_second{
+.second .second_s{
     height: 100%;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-top: 15px solid rgba(146, 166, 198, 0.199);
-    border-left: 15px solid rgba(146, 166, 198, 0.199);
+    border-right: 15px solid rgba(146, 166, 198, 0.199);
     border-bottom: 15px solid rgba(146, 166, 198, 0.199);
     /* border: 12px solid black; */
 }
-.second .second_second img{
+.second .second_s img{
     height: 80%;
     width: 80%;
 }

@@ -5,18 +5,18 @@ export default function HeroSecond() {
     <>
     <div className="second">
        
-        <div className="second_second">
-            <img src="https://www.showell.com/hs-fs/hubfs/Website/Product%20images%20(NEW)/Laptop-and-iphone.png?width=600&height=480&name=Laptop-and-iphone.png" alt="" />
+        <div className="second_s">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcuvpk-SoYh7lWDco_TujDTVmYhg6_wzM8QA&s" alt="" />
         </div>
         <div className="second_first">
-            <i className="fa-brands fa-rocketchat"></i>
+            <i className="fa-solid fa-ranking-star"></i>
            {/* <FontAwesomeIcon icon="fa-brands fa-rocketchat" /> */}
-            <h1>Share team inboxes</h1>
-            <p>Wheather you have a team of 2 or 200, our shared teams inboxes keep everyone on the same page and in the loop.</p>
+            <h1>Deliver instant answer </h1>
+            <p>An all-in-one customer service plactfrom that helps you balance everything your customers need to be happy.</p>
             <div className="option">
-                <p> <i className="fa-solid fa-check-double"></i> Leverage automation to move fast</p>
-                <p> <i className="fa-solid fa-check-double"></i> Always give customers a human to chat to</p>
-                <p> <i className="fa-solid fa-check-double"></i> Automate customer support and close leads faster</p>
+                <p> <i className="fa-solid fa-check-double"></i> Keep  your custmore in the loop with live chat</p>
+                <p> <i className="fa-solid fa-check-double"></i>Embed help articles right on your websites</p>
+                <p> <i className="fa-solid fa-check-double"></i> Customers nevers have to leave the page to find an answer</p>
             </div>
         </div>
     </div>
@@ -25,18 +25,16 @@ export default function HeroSecond() {
 
 <div className="second">
 <div className="second_first">
-    <i className="fa-brands fa-rocketchat"></i>
    {/* <FontAwesomeIcon icon="fa-brands fa-rocketchat" /> */}
-    <h1>Share team inboxes</h1>
-    <p>Wheather you have a team of 2 or 200, our shared teams inboxes keep everyone on the same page and in the loop.</p>
+    <h1>Join 4000 +startups growing with Untitled</h1>
+    <p>Start your 30-days free trial today.</p>
     <div className="option">
-        <p> <i className="fa-solid fa-check-double"></i> Leverage automation to move fast</p>
-        <p> <i className="fa-solid fa-check-double"></i> Always give customers a human to chat to</p>
-        <p> <i className="fa-solid fa-check-double"></i> Automate customer support and close leads faster</p>
+        <button>Learn More </button>
+        <button>Get started</button>
     </div>
 </div>
 <div className="second_second">
-    <img src="https://www.showell.com/hs-fs/hubfs/Website/Product%20images%20(NEW)/Laptop-and-iphone.png?width=600&height=480&name=Laptop-and-iphone.png" alt="" />
+    <img src="https://plus.unsplash.com/premium_photo-1664476845274-27c2dabdd7f0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3RvY2slMjBtYXJrZXR8ZW58MHx8MHx8fDA%3D" alt="" />
 </div>
 </div>
 </>
