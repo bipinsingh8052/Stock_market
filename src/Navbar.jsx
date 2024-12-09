@@ -8,7 +8,7 @@ export default function Navbar() {
              <input type="checkbox"  />
             <h1>Untitled</h1>
             <div className="buttn">
-                <button style={{border:"none",outline:"none", backgroundColor:"transparent"}} className="login" >Log in</button>
+                <button style={{border:"none",outline:"none", backgroundColor:"transparent" }} className="login" >Log in</button>
                 <button className="signup" > Sign up</button>
             </div>
         </nav>
