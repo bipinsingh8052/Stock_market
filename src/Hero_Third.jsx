@@ -2,8 +2,12 @@ import './Hero_third.css'
 
 export default function Hero_Third() {
   return (
+    <>
     <div className="second">
-    <div className="second_first">
+       <div className="second_second">
+        <img src="https://global.aorus.com/upload/Admin/images/AORUS%2015.jpg" alt="" />
+    </div>
+       <div className="second_first">
         <i className="fa-brands fa-rocketchat"></i>
        {/* <FontAwesomeIcon icon="fa-brands fa-rocketchat" /> */}
         <h1>Share team inboxes</h1>
@@ -13,10 +17,21 @@ export default function Hero_Third() {
             <p> <i className="fa-solid fa-check-double"></i> Always give customers a human to chat to</p>
             <p> <i className="fa-solid fa-check-double"></i> Automate customer support and close leads faster</p>
         </div>
-    </div>
-    <div className="second_second">
-        <img src="https://www.showell.com/hs-fs/hubfs/Website/Product%20images%20(NEW)/Laptop-and-iphone.png?width=600&height=480&name=Laptop-and-iphone.png" alt="" />
-    </div>
+      </div>
 </div>
+<div className="paragraph">
+  <div className="header">
+    <h1>Start your 30-day free trial</h1>
+    <p>Get up and running in less than 5 minutes.</p>
+  </div>
+  <div className="buttons">
+    <button className="first">
+      learn more
+    </button>
+    <button className="second">Get started</button>
+  </div>
+</div>
+
+</>
   )
 }

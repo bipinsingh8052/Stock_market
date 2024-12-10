@@ -121,3 +121,199 @@ nav .buttn button{
 .innersection span{
     color: rgb(180, 168, 168);
 }
+
+
+@media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+        background-color: rgba(146, 173, 185, 0.155);
+    }
+    
+    header nav input{
+        display: none;
+       
+    }
+    nav{
+        height: 60px;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav h1{
+        padding-left: 10px;
+        font-family: cursive;
+        font-weight: 300;
+    }
+    nav .buttn{
+        display: flex;
+        gap: 20px;
+        margin-right:10px ;
+    }
+    nav .buttn button{
+        font-size: 18px;
+        padding: 5px;
+        /* background-color: transparent; */
+    }
+    .login:hover{
+        cursor: pointer;
+        color: red;
+    }
+    .signup{
+        border: none;
+        outline: none;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 5px;
+    }
+    .signup:hover{
+        background-color: chocolate;
+        color: black;
+        cursor: pointer;
+    }
+    .herosection{
+        height: 500px;
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .innersection{
+        height: 90%;
+        width: 80%;
+        padding-left: 10px;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        background-image: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/30XoLwPrgqULpjdJaA3ZGe/73bb09ee22fe2f46ae2aabaa8b8b7a41/GettyImages-1173948784__1_.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000");
+        background-size: cover;
+        justify-content: space-evenly;
+        box-shadow: -2px -2px 8px 9px rgba(62, 206, 238, 0.527);
+    }
+    .innersection h1{
+        width: 50%;
+        color: white;
+    }
+    .innersection p{
+        width: 40%;
+        color: rgb(218, 202, 202);
+    }
+    .innersection .input{
+        height: 10%;
+        width: 35%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .innersection .input input{
+        height: 100%;
+        width: 220px;
+        padding: 10px;
+        outline: none;
+        border: none;
+    }
+    .innersection .input input::placeholder{
+        /* padding-left: 10px; */
+        background-color: rgb(255, 255, 255);
+    }
+    .innersection .input button{
+        height: 100%;
+        width: 120px;
+        background-color: blueviolet;
+        color: azure;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        /* border: 2px solid black; */
+    }
+    .innersection .input button:hover{
+        background-color: rgb(199, 152, 152);
+        color: black;
+        cursor: pointer;
+    }
+    .innersection span{
+        color: rgb(180, 168, 168);
+    }
+    
+}
+
+
+@media screen and (max-width: 420px) {
+.herosection{
+    height: 400px;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.innersection{
+    height: 90%;
+    width: 100%;
+    padding-left: 10px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-image: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/30XoLwPrgqULpjdJaA3ZGe/73bb09ee22fe2f46ae2aabaa8b8b7a41/GettyImages-1173948784__1_.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000");
+    background-size: cover;
+    justify-content: space-evenly;
+    box-shadow: -2px -2px 8px 9px rgba(62, 206, 238, 0.527);
+}
+.innersection h1{
+    width: 100%;
+    color: white;
+}
+.innersection p{
+    width: 100%;
+    color: rgb(218, 202, 202);
+}
+.innersection .input{
+    height: 10%;
+    width: 35%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    justify-content: space-between;
+}
+.innersection .input input{
+    height: 100%;
+    width: 220px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.innersection .input input::placeholder{
+    /* padding-left: 10px; */
+    background-color: rgb(255, 255, 255);
+}
+.innersection .input button{
+    height: 100%;
+    width: 120px;
+    background-color: blueviolet;
+    color: azure;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    /* border: 2px solid black; */
+}
+.innersection .input button:hover{
+    background-color: rgb(199, 152, 152);
+    color: black;
+    cursor: pointer;
+}
+.innersection span{
+    color: rgb(180, 168, 168);
+}
+}

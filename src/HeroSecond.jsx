@@ -3,7 +3,7 @@ import './Herosecond.css'
 export default function HeroSecond() {
   return (
     <>
-    <div className="second">
+    <div className="second_one">
        
         <div className="second_s">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcuvpk-SoYh7lWDco_TujDTVmYhg6_wzM8QA&s" alt="" />
@@ -23,7 +23,7 @@ export default function HeroSecond() {
 
 
 
-<div className="second">
+<div className="second_two">
 <div className="second_first">
    {/* <FontAwesomeIcon icon="fa-brands fa-rocketchat" /> */}
     <h1>Join 4000 +startups growing with Untitled</h1>
@@ -33,7 +33,7 @@ export default function HeroSecond() {
         <button>Get started</button>
     </div>
 </div>
-<div className="second_second">
+<div className="second_s">
     <img src="https://plus.unsplash.com/premium_photo-1664476845274-27c2dabdd7f0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3RvY2slMjBtYXJrZXR8ZW58MHx8MHx8fDA%3D" alt="" />
 </div>
 </div>
