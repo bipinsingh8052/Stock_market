@@ -1,0 +1,366 @@
+.header{
+    margin-top: 5px;
+    height: 700px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.header .first_header{
+    height: 20%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(220, 243, 243);
+}
+.header .first_header span{
+    color: blue;
+    font-size: 15px;
+}
+.header .first_header h1{
+    font-size: 35px;
+}
+.header .first_header p{
+    font-size: 18px;
+    color: rgb(72, 68, 68);
+}
+.header .container{
+    height: 80%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.header .container .paragraph{
+    height: 90%;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.header .container .paragraph h1{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.header .container .paragraph p{
+    font-size: 15px;
+    color: black;
+}
+.header .container .paragraph span{
+    font-size: 13px;
+    color: blueviolet;
+}
+.header .container .paragraph span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.header .container .img{
+    height: 90%;
+    width: 40%;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+}
+.header .container .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+
+.sign{
+    height: 200px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(216, 237, 241);
+}
+.sign .sign_para{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sign .sign_para h1{
+    font-size: 30px;
+}
+.sign .sign_para p{
+    font-size: 20px;
+}
+/* .sign .input{
+    height: 50%;
+    width: 30%;
+    border: 2px solid black;
+} */
+
+.sign .input .main_input {
+    display: flex;
+    gap: 20px;
+}
+.sign .input .main_input input{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.sign .input .main_input button {
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+    background-color: blueviolet;
+    color: whitesmoke;
+    border: none;
+}
+.sign .input .main_input button:hover{
+    color: rgb(74, 69, 69);
+    cursor: pointer;
+    background-color: bisque;
+}
+.sign .input p{
+    font-size: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header{
+        margin-top: 5px;
+        height: 700px;
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+    .header .first_header{
+        height: 20%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        justify-content: center;
+        gap: 10px;
+        background-color: rgb(220, 243, 243);
+    }
+    .header .first_header span{
+        color: blue;
+        font-size: 15px;
+    }
+    .header .first_header h1{
+        font-size: 35px;
+    }
+    .header .first_header p{
+        font-size: 18px;
+        color: rgb(72, 68, 68);
+    }
+    .header .container{
+        height: 80%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .header .container .paragraph{
+        height: 45%;
+        width: 90%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+    .header .container .paragraph h1{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .header .container .paragraph p{
+        font-size: 15px;
+        color: black;
+    }
+    .header .container .paragraph span{
+        font-size: 13px;
+        color: blueviolet;
+    }
+    .header .container .paragraph span:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .header .container .img{
+        height: 50%;
+        width: 90%;
+        border-radius: 10px;
+        /* border: 2px solid black; */
+    }
+    .header .container .img img{
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .sign{
+        height: 300px;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(216, 237, 241);
+    }
+
+    
+    
+}
+
+
+@media screen and (max-width: 420px) {
+    .header{
+        margin-top: 5px;
+        height: 900px;
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+    .header .first_header{
+        height: 20%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        justify-content: center;
+        gap: 10px;
+        background-color: rgb(220, 243, 243);
+    }
+    .header .first_header span{
+        color: blue;
+        font-size: 12px;
+    }
+    .header .first_header h1{
+        font-size: 25px;
+    }
+    .header .first_header p{
+        font-size: 15px;
+        color: rgb(72, 68, 68);
+    }
+    .header .container{
+        height: 80%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .header .container .paragraph{
+        height: 45%;
+        width: 95%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+    .header .container .paragraph h1{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .header .container .paragraph p{
+        font-size: 12px;
+        color: rgb(54, 47, 47);
+    }
+    .header .container .paragraph span{
+        font-size: 9px;
+        color: blueviolet;
+    }
+    .header .container .paragraph span:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .header .container .img{
+        height: 45%;
+        width: 100%;
+        /* border-radius: 10px; */
+        /* border: 2px solid black; */
+    }
+    .header .container .img img{
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+        /* border-radius: 20px; */
+    }
+
+
+
+    .sign{
+        margin-top: 5px;
+        height: 250px;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(216, 237, 241);
+    }
+    .sign .sign_para{
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .sign .sign_para h1{
+        font-size: 30px;
+    }
+    .sign .sign_para p{
+        font-size: 20px;
+    }
+    /* .sign .input{
+        height: 50%;
+        width: 30%;
+        border: 2px solid black;
+    } */
+    
+    .sign .input .main_input {
+        /* width: 90%; */
+        display: flex;
+        gap: 20px;
+    }
+    .sign .input .main_input input{
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        padding-left: 10px;
+        /* width: 100%; */
+    }
+    .sign .input .main_input button {
+        /* display: flex; */
+        /* flex-direction: column; */
+        height: 40px;
+        border-radius: 10px;
+        padding: 5px;
+        outline: none;
+        background-color: blueviolet;
+        color: whitesmoke;
+        border: none;
+    }
+    .sign .input .main_input button:hover{
+        color: rgb(74, 69, 69);
+        cursor: pointer;
+        background-color: bisque;
+    }
+    .sign .input p{
+        font-size: 10px;
+    }
+}

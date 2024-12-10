@@ -1,0 +1,117 @@
+.footer{
+    height: 300px;
+    width: 100%;
+    /* border:1px solid black ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;background-color: rgb(51, 49, 49);
+}
+.footer .conatiner{height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.footer .conatiner .logo{
+    height: 90%;
+    width: 19%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer .conatiner .logo h1{
+    font-size: 25px;
+    color: white;
+}
+.footer .conatiner .logo p{
+    font-size: 15px;
+    color: rgb(193, 190, 190);
+}
+.footer .conatiner .product ,.footer .conatiner .company ,.footer .conatiner .resources ,.footer .conatiner .social , .footer .conatiner .legal{
+    height: 90%;
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer .conatiner .product span, .footer .conatiner .company span,.footer .conatiner .resources span ,.footer .conatiner .social span , .footer .conatiner .legal span{
+    font-size: 13px;
+    color: rgb(193, 190, 190);
+
+}
+.footer .conatiner .product  p, .footer .conatiner .company p ,.footer .conatiner .resources p,.footer .conatiner .social  p, .footer .conatiner .legal p{
+    font-size: 15px;
+    color: rgb(244, 234, 234);
+}
+.copy{
+    height: 40px;
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 49, 49);
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        height: 1500px;
+        width: 100%;
+        /* border:1px solid black ; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;background-color: rgb(51, 49, 49);
+    }
+    .footer .conatiner{height: 100%;
+        width: 100%;
+        display: flex;
+        padding-left: 10px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        justify-content: space-between;
+    
+        gap: 30px;
+    
+    }
+    .footer .conatiner .logo{
+        height: 19%;
+        width: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        gap: 20px;
+    }
+    .footer .conatiner .logo h1{
+        font-size: 25px;
+        color: white;
+    }
+    .footer .conatiner .logo p{
+        font-size: 15px;
+        color: rgb(193, 190, 190);
+    }
+    .footer .conatiner .product ,.footer .conatiner .company ,.footer .conatiner .resources ,.footer .conatiner .social , .footer .conatiner .legal{
+        height: 19%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-bottom: 1px solid whitesmoke;
+    }
+    .footer .conatiner .product span, .footer .conatiner .company span,.footer .conatiner .resources span ,.footer .conatiner .social span , .footer .conatiner .legal span{
+        font-size: 13px;
+        color: rgb(193, 190, 190);
+    
+    }
+    .footer .conatiner .product  p, .footer .conatiner .company p ,.footer .conatiner .resources p,.footer .conatiner .social  p, .footer .conatiner .legal p{
+        font-size: 15px;
+        color: rgb(244, 234, 234);
+    }
+}

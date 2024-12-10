@@ -21,6 +21,16 @@ export default function HeroSecond() {
         </div>
     </div>
 
+<div className="para">
+    <div className="main_para">
+        <h1>Start your 30-days free trial</h1>
+        <p>Get up and runnging in less than 5 minutes</p>
+    </div>
+    <div className="buttons">
+        <button>Learn more</button>
+        <button>Get started</button>
+    </div>
+</div>
 
 
 <div className="second_two">

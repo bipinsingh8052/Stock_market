@@ -93,6 +93,21 @@
     color: rgb(106, 98, 98);
 }
 .second_two .second_first .option {
+    display: flex;
+    gap: 10px;
+}
+.second_two .second_first .option button{
+    padding: 10px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+.second_two .second_first .option button:hover{
+    background-color: antiquewhite;
+    color: blueviolet;
+    cursor: pointer;
 }
 
 
@@ -113,11 +128,60 @@
     height: 80%;
     width: 80%;
 }
+
+
+
+
+.para{
+    height: 150px;
+    width: 100%;
+    /* margin: 10px; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.para .main_para{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.para .main_para h1{
+    font-size: 35px;color: rgb(60, 22, 96);
+}
+.para .main_para p{
+    font-size: 20px;
+    color: rgb(51, 47, 47);
+}
+.para .buttons{
+    display: flex;
+    gap: 20px;
+
+}
+.para .buttons button{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+}
+.para .buttons button:hover{
+    background-color: beige;
+    color: blueviolet;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
    
     .second_one{
         /* border: 2px solid black; */
-        height: 600px;
+        height: 700px;
         width: 100%;
         display: flex;
         flex-direction:column-reverse;
@@ -126,7 +190,7 @@
         
     }
     .second_one .second_first{
-        height: 50%;
+        height: 60%;
         width: 90%;
         padding-left: 10px;
         /* border: 2px solid black; */
@@ -162,7 +226,7 @@
     
     
     .second_one .second_s{
-        height: 45%;
+        height:35%;
         width:90%;
         display: flex;
         justify-content: center;
@@ -177,4 +241,115 @@
         height: 80%;
         width: 80%;
     }
+
+
+
+    .second_two{
+        height: 600px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .second_two .second_first{
+        height: 50%;
+        width: 90%;
+        padding-left: 10px;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .second_two .second_first  i{
+        font-size: 27px;
+        color: blueviolet;
+        padding: 20px;
+    
+    }
+    .second_two .second_first p{
+        font-size: 12px;
+        color: rgb(106, 98, 98);
+    }
+    .second_two .second_first .option {
+        display: flex;
+        gap: 10px;
+    }
+    .second_two .second_first .option button{
+        padding: 10px;
+        background-color: blueviolet;
+        color: whitesmoke;
+        outline: none;
+        border-radius: 10px;
+        border: none;
+    }
+    .second_two .second_first .option button:hover{
+        background-color: antiquewhite;
+        color: blueviolet;
+        cursor: pointer;
+    }
+    .second_two .second_s{
+        height: 45%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 15px solid rgba(146, 166, 198, 0.199);
+        border-left: 15px solid rgba(146, 166, 198, 0.199);
+        border-bottom: 15px solid rgba(146, 166, 198, 0.199);
+        border-right: 15px solid rgba(146, 166, 198, 0.199);
+        /* border: 12px solid black; */
+    }
+    .second_two .second_s img{
+        height: 80%;
+        width: 80%;
+    }
+
+    
+.para{
+    height: 150px;
+    width: 100%;
+    /* margin: 10px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.para .main_para{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.para .main_para h1{
+    font-size: 25px;color: rgb(60, 22, 96);
+}
+.para .main_para p{
+    font-size: 17px;
+    color: rgb(51, 47, 47);
+}
+.para .buttons{
+    display: flex;
+    gap: 20px;
+
+}
+.para .buttons button{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+}
+.para .buttons button:hover{
+    background-color: beige;
+    color: blueviolet;
+    cursor: pointer;
+}
 }
